@@ -1,5 +1,4 @@
 def constructLPS(pat):
-    print('here')
     n = len(pat)
     lps = [0] * n 
     lps[0] = 0
@@ -21,14 +20,13 @@ def constructLPS(pat):
 def search(pat, txt):
     # code here
     lps = constructLPS(pat)
-    print(lps)
     res = []
     n = len(txt)
     m = len(pat)
     i = 0
     j = 0
     while i < n:
-        if txt[i] == pat[i]:
+        if txt[i] == pat[j]:
             i += 1
             j += 1
             
@@ -41,3 +39,4 @@ def search(pat, txt):
             else:
                 i += 1
     return res
+print(search(txt = 'geeksforgeeks', pat = 'geek'))
