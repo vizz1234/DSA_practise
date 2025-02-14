@@ -30,3 +30,5 @@ class Solution:
                         res += c1 * c2
                     
         return res
+obj = Solution()
+print(obj.countTriplets([1,2,3,4,5], 12))
