@@ -30,5 +30,8 @@ class Solution:
 
 # Example usage:
 sol = Solution()
-n = 4
-print(sol.nQueen(n))
+n = 8
+matrix = sol.nQueen(n)
+for i in matrix:
+    if i[1] == 1 and i[4] == 2:
+        print(i)
