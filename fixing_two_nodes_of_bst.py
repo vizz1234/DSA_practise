@@ -19,16 +19,14 @@ class Solution:
         first = None
         middle = None
         last = None
-        cnt = 0
         for i in range(1, len(self.inorder)):
             data = self.inorder[i].data
             prev_data = self.inorder[i-1].data
             if data < prev_data:
-                cnt += 1
-                if cnt == 1:
+                if not first:
                     first = self.inorder[i-1]
                     middle = self.inorder[i]
-                if cnt == 2:
+                else:
                     last = self.inorder[i]
         if not last:
             last = middle
