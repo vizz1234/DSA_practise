@@ -1,63 +1,50 @@
-# Python program to implement a stack that supports
-# all operations in O(1) time and O(1) extra space.
+class Solution:
 
-class SpecialStack:
     def __init__(self):
-        self.s = []
-        self.minEle = -1
-
+        # code here
+        self.min = -1
+        self.stack = []
+        
     # Add an element to the top of Stack
     def push(self, x):
-        if not self.s:
-            self.minEle = x
-            self.s.append(x)
-        # If new number is less than minEle
-        elif x < self.minEle:
-            self.s.append(2 * x - self.minEle)
-            self.minEle = x
+        # code here
+        if not self.stack:
+            self.min = x
+            self.stack.append(x)
+        elif x < self.min:
+            self.stack.append(2 * x - self.min)
+            self.min = x
         else:
-            self.s.append(x)
+            self.stack.append(x)
 
     # Remove the top element from the Stack
     def pop(self):
-        if not self.s:
-            return
-
-        top = self.s.pop()
-
-        # Minimum will change, if the minimum element
-        # of the stack is being removed.
-        if top < self.minEle:
-            self.minEle = 2 * self.minEle - top
+        # code here
+        if not self.stack:
+            return -1
+        top = self.stack.pop()
+        if top < self.min:
+            temp = self.min
+            self.min = 2 * self.min - top
+            top = temp
+        return top
 
     # Returns top element of Stack
     def peek(self):
-        if not self.s:
+        # code here
+        if not self.stack:
             return -1
-
-        top = self.s[-1]
-
-        # If minEle > top means minEle stores value of top.
-        return self.minEle if self.minEle > top else top
+        top = self.stack[-1]
+        return self.stack[-1] if top > self.min else self.min
 
     # Finds minimum element of Stack
     def getMin(self):
-        if not self.s:
-            return -1
+        # code here
+        return self.min if self.stack else -1
 
-        # variable minEle stores the minimum element
-        # in the stack.
-        return self.minEle
-
-if __name__ == '__main__':
-    ss = SpecialStack()
-    
-    # Function calls
-    ss.push(2)
-    ss.push(3)
-    print(ss.peek(), end=" ")
-    ss.pop()
-    print(ss.getMin(), end=" ")
-    ss.push(1)
-    print(ss.getMin(), end=" ")
-    
+s = Solution()
+s.push(3)
+s.push(5)
+print(s.getMin())
+s.push(2)
+print(s.getMin())
