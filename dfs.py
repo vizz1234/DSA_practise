@@ -4,10 +4,9 @@ class Solution:
     def dfs(self, adj):
         # code here
         output = []
-        outputSet = set(output)
+        outputSet = set()
         n = len(adj)
         stack = [0]
-        stackSet = set(stack)
         
         while len(output) < n:
             top = stack[-1]
@@ -18,13 +17,10 @@ class Solution:
             while i < len(adj[top]):
                 if adj[top][i] not in outputSet:
                     stack.append(adj[top][i])
-                    stackSet.add(adj[top][i])
                     break
                 i += 1
             else:
-                r = stack[-1]
                 stack.pop()
-                stackSet.remove(r)
         
         return output
 
