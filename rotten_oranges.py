@@ -29,4 +29,7 @@ class Solution:
                     fresh -= 1
                     q.append((di, dj, t + 1))
         
-        return time if fresh == 0 else -1
+        if fresh == 0:
+            return time
+        else:
+            return -1
