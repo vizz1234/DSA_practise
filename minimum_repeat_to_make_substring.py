@@ -14,3 +14,5 @@ class Solution:
         if s2 in s:
             return count + 1
         return -1
+sol = Solution()
+print(sol.minRepeats("abcd", "cdabcdab"))
