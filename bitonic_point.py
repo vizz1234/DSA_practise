@@ -18,3 +18,4 @@ class Solution:
 sol = Solution()
 print(sol.findMaximum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
 print(sol.findMaximum([5,6,7,8,4,1]))
+print(sol.findMaximum([8,7,6,5,4]))
