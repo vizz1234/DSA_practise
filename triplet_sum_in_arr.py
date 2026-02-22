@@ -15,3 +15,7 @@ class Solution:
                 else:
                     r -= 1
         return False
+sol = Solution()
+arr = [1, 2, 3, 4, 5]
+target = 10
+print(sol.hasTripletSum(arr, target))
