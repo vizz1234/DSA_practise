@@ -28,3 +28,6 @@ sol = Solution()
 arr = [1, 2, 3, 4, 5]
 target = 10
 print(sol.closest3Sum(arr, target))
+arr = [-1, 2, 2, 4]
+target = 4
+print(sol.closest3Sum(arr, target))
