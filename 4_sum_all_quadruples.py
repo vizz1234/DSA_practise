@@ -31,3 +31,6 @@ sol = Solution()
 arr = [1, 2, 3, 4, 5]
 target = 10
 print(sol.fourSum(arr, target))
+arr = [1, 1, 4, 2, 4, 5, 3, 3]
+target = 9
+print(sol.fourSum(arr, target))
