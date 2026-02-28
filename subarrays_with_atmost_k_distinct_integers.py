@@ -18,3 +18,6 @@ sol = Solution()
 arr = [1, 2, 3, 4, 5]
 k = 3
 print(sol.countAtMostK(arr, k))
+arr = [1, 1, 2, 3, 1, 4, 2]
+k = 2
+print(sol.countAtMostK(arr, k))
