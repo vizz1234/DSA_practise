@@ -21,3 +21,6 @@ print(sol.countAtMostK(arr, k))
 arr = [1, 1, 2, 3, 1, 4, 2]
 k = 2
 print(sol.countAtMostK(arr, k))
+arr = [1, 1, 1]
+k = 1
+print(sol.countAtMostK(arr, k))
