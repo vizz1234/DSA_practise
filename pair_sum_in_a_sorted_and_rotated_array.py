@@ -23,3 +23,6 @@ sol = Solution()
 arr = [1, 2, 3, 4, 5]
 target = 10
 print(sol.pairInSortedRotated(arr, target))
+arr[] = [7, 9, 1, 3, 5]
+target = 6
+print(sol.pairInSortedRotated(arr, target))
