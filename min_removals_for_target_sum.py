@@ -23,3 +23,6 @@ sol = Solution()
 arr = [1, 2, 3, 4, 5]
 k = 10
 print(sol.minRemovals(arr, k))
+arr[] = [5, 3, 4, 6, 2]
+k = 6
+print(sol.minRemovals(arr, k))
