@@ -26,3 +26,6 @@ print(sol.minRemovals(arr, k))
 arr[] = [5, 3, 4, 6, 2]
 k = 6
 print(sol.minRemovals(arr, k))
+arr[] = [1, 1, 3, 1, 2]
+k = 4
+print(sol.minRemovals(arr, k))
