@@ -25,3 +25,6 @@ print(sol.hasTripletSum(arr, target))
 [40, 20, 10, 3, 6, 7]
 target = 24
 print(sol.hasTripletSum(arr, target))
+arr[] = [1, 4, 45, 6, 10, 8]
+target = 13
+print(sol.hasTripletSum(arr, target))
