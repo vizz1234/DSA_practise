@@ -17,3 +17,6 @@ class Solution:
         return ele_idx
 sol = Solution()
 print(sol.lowerBound([1, 2, 3, 4, 5], 3))
+arr = [2, 3, 7, 10, 11, 11, 25]
+target = 9
+print(sol.lowerBound(arr, target))
