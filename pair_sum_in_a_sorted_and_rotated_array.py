@@ -26,9 +26,9 @@ print(sol.pairInSortedRotated(arr, target))
 arr = [7, 9, 1, 3, 5]
 target = 6
 print(sol.pairInSortedRotated(arr, target))
-arr[] = [2, 3, 4, 1]
+arr = [2, 3, 4, 1]
 target = 3
 print(sol.pairInSortedRotated(arr, target))
-arr[] = [10, 7, 4, 1]
+arr = [10, 7, 4, 1]
 target = 9
 print(sol.pairInSortedRotated(arr, target))
