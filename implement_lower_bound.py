@@ -23,3 +23,6 @@ print(sol.lowerBound(arr, target))
 arr = [2, 3, 7, 10, 11, 11, 25]
 target = 11
 print(sol.lowerBound(arr, target))
+arr = [2, 3, 7, 10, 11, 11, 25] 
+target = 100
+print(sol.lowerBound(arr, target))
