@@ -21,3 +21,6 @@ class Solution:
         return ans
 sol = Solution()
 print(sol.kokoEat([3, 6, 7, 11], 8))
+arr = [5, 10, 15, 20]
+k = 7
+print(sol.kokoEat(arr, k))
