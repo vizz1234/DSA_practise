@@ -16,3 +16,5 @@ class Solution:
 arr = [2, 5, -9, 4]
 obj = Solution()
 print(obj.touchedXaxis(arr))
+arr = [4, -6, 2, 8, -2, 3, -12]
+print(obj.touchedXaxis(arr))
