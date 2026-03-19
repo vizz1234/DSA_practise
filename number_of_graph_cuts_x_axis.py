@@ -18,3 +18,5 @@ obj = Solution()
 print(obj.touchedXaxis(arr))
 arr = [4, -6, 2, 8, -2, 3, -12]
 print(obj.touchedXaxis(arr))
+arr = [1, 3, 5]
+print(obj.touchedXaxis(arr))
