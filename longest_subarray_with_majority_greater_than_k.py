@@ -20,3 +20,6 @@ sol = Solution()
 arr = [1, 2, 3, 4, 1]
 k = 2
 print(sol.longestSubarray(arr, k))
+arr = [6, 5, 3, 4] 
+k = 2
+print(sol.longestSubarray(arr, k))
