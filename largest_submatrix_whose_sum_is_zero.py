@@ -33,3 +33,5 @@ class Solution:
 sol = Solution()
 mat = [[1, -1, -1], [1, -1, 1], [1, 1, 1]]
 print(sol.zeroSumSubmat(mat))
+mat = [[9, 7, 16, 5], [1, -6, -7, 3], [1, 8, 7, 9], [7, -2, 0, 10]] 
+print(sol.zeroSumSubmat(mat))
