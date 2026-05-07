@@ -37,3 +37,4 @@ class Solution:
 sol = Solution()
 print(sol.mostBooked(2, [[0, 10], [1, 5], [2, 7], [3, 4]]))
 print(sol.mostBooked(3, [[1, 20], [2, 10], [3, 5], [4, 9], [6, 19]]))  
+print(sol.mostBooked(4, [[4,5],[2,3],[1,4],[0,5]]))
