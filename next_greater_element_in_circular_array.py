@@ -21,3 +21,4 @@ class Solution:
 sol = Solution()
 print(sol.nextGreater([1, 2, 1]))
 print(sol.nextGreater([1, 2, 3, 4, 3]))
+print(sol.nextGreater([5, 2, 3, 1, 4]))
