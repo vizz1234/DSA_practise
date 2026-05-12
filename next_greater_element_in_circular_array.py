@@ -20,3 +20,4 @@ class Solution:
 
 sol = Solution()
 print(sol.nextGreater([1, 2, 1]))
+print(sol.nextGreater([1, 2, 3, 4, 3]))
