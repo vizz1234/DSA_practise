@@ -27,3 +27,4 @@ class Solution:
 sol = Solution()
 print(sol.sumOfMax([1, 3, 2]))
 print(sol.sumOfMax([8, 0, 1]))
+print(sol.sumOfMax([4, 4, 4, 4]))
