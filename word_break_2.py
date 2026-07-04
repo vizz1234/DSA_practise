@@ -31,3 +31,4 @@ class Solution:
     
 sol = Solution()
 print(sol.wordBreak(["apple", "pen", "applepen", "pine", "pineapple"], "pineapplepenapple"))
+print(sol.wordBreak(["cat", "cats", "and", "sand", "dog"], "catsanddog"))
