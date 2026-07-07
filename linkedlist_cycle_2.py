@@ -33,3 +33,8 @@ head = ListNode(1)
 head.next = ListNode(2)
 head.next.next = head
 print(sol.detectCycle(head).val)
+head = ListNode(3)
+head.next = ListNode(2)
+head.next.next = ListNode(0)
+head.next.next.next = ListNode(-4)
+print(sol.detectCycle(head).val)
