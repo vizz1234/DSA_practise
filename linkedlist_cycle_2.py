@@ -38,3 +38,5 @@ head.next = ListNode(2)
 head.next.next = ListNode(0)
 head.next.next.next = ListNode(-4)
 print(sol.detectCycle(head).val)
+head = None
+print(sol.detectCycle(head))
