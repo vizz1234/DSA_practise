@@ -40,3 +40,6 @@ head.next.next.next = ListNode(-4)
 print(sol.detectCycle(head).val)
 head = None
 print(sol.detectCycle(head))
+head = ListNode(1)
+head.next = head
+print(sol.detectCycle(head).val)
