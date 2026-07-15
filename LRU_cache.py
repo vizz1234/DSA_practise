@@ -54,3 +54,10 @@ class LRUCache:
         MRUnode = Node(key, value)
         self.insert(MRUnode)
         self.q[key] = MRUnode
+
+lru = LRUCache(2)
+lru.put(1, 1)
+lru.put(2, 2)
+print(lru.get(1))
+lru.put(3, 3)
+print(lru.get(2))
