@@ -13,3 +13,8 @@ class Solution:
                         continue
                     if dist[i][j] > dist[i][k] + dist[k][j]:
                         dist[i][j] = dist[i][k] + dist[k][j]
+
+sol = Solution()
+dist = [[0, 5, float('inf'), 10], [float('inf'), 0, 3, float('inf')], [float('inf'), float('inf'), 0, 1], [float('inf'), float('inf'), float('inf'), 0]]
+sol.floydWarshall(dist)
+print(dist[0][3])
