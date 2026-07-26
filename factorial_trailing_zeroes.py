@@ -8,3 +8,4 @@ class Solution:
 
 sol = Solution()
 print(sol.trailingZeroes(3))
+print(sol.trailingZeroes(5))
