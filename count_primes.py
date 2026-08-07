@@ -6,7 +6,6 @@ class Solution:
 
         is_prime = [1] * n
         is_prime[0] = is_prime[1] = 0
-        count = 0
 
         for i in range(2, int(n ** 0.5) + 1):
 
