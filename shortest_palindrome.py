@@ -23,3 +23,4 @@ class Solution:
 sol = Solution()
 print(sol.shortestPalindrome("aacecaaa"))
 print(sol.shortestPalindrome("abcd"))
+print(sol.shortestPalindrome("aba"))
