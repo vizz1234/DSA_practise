@@ -29,4 +29,5 @@ class Solution:
         return False
 
 sol = Solution()
-print(sol.containsNearbyAlmostDuplicate([1,2,3,1], 3, 0))      
+print(sol.containsNearbyAlmostDuplicate([1,2,3,1], 3, 0))
+print(sol.containsNearbyAlmostDuplicate([1,0,1,1], 1, 2))   
