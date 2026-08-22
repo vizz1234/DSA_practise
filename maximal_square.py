@@ -19,3 +19,5 @@ class Solution:
 
 sol = Solution()
 print(sol.maximalSquare([["1","0","1","0","0"],["1","0","1","1","1"],["1","1","1","1","1"],["1","0","0","1","0"]]))
+print(sol.maximalSquare([["0","1"],["1","0"]]))
+print(sol.maximalSquare([["0"]]))
