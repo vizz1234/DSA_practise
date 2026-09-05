@@ -24,3 +24,4 @@ class Solution:
 
 sol = Solution()
 print(sol.uglyNumber(10))
+print(sol.uglyNumber(15))
