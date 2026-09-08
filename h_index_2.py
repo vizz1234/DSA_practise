@@ -21,3 +21,4 @@ class Solution:
 
 sol = Solution()
 print(sol.hIndex([0, 1, 3, 5, 6]))
+print(sol.hIndex([1, 100]))
