@@ -41,3 +41,4 @@ class Solution:
 sol = Solution()
 print(sol.isAdditiveNumber("112358"))
 print(sol.isAdditiveNumber("011"))
+print(sol.isAdditiveNumber("1203"))
