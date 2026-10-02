@@ -26,3 +26,4 @@ class Solution:
 
 sol = Solution()
 print(sol.nthSuperUglyNumber(12, [2, 3, 5]))
+print(sol.nthSuperUglyNumber(58, [2, 7, 13, 19]))
