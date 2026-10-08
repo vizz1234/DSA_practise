@@ -29,5 +29,10 @@ root.left = TreeNode(2)
 root.right = TreeNode(3)
 sol = Solution()
 print(sol.sumNumbers(root))
-
+root = TreeNode(5)
+root.left = TreeNode(9)
+root.right = TreeNode(0)
+root.left.left = TreeNode(1)
+root.left.right = TreeNode(4)
+print(sol.sumNumbers(root))
         
