@@ -37,4 +37,8 @@ root.left.right = TreeNode(4)
 print(sol.sumNumbers(root))
 root = TreeNode(0)
 print(sol.sumNumbers(root))
+root = TreeNode(4)
+root.left = TreeNode(9)
+root.right = TreeNode(0)
+print(sol.sumNumbers(root))
         
