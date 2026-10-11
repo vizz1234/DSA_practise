@@ -33,3 +33,10 @@ root.right.right = Node(3)
 
 sol = Solution()
 print(sol.isSymmetric(root))
+
+root = Node(1)
+root.left = Node(2)
+root.right = Node(2)
+root.left.right = Node(3)
+root.right.right = Node(3)
+print(sol.isSymmetric(root))
