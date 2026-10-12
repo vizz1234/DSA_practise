@@ -40,3 +40,6 @@ root.right = Node(2)
 root.left.right = Node(3)
 root.right.right = Node(3)
 print(sol.isSymmetric(root))
+
+root = Node(0)
+print(sol.isSymmetric(root))
