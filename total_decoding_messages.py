@@ -24,3 +24,4 @@ class Solution:
 sol = Solution()
 print(sol.countWays("123"))
 print(sol.countWays("10"))
+print(sol.countWays("01"))
