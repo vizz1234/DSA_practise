@@ -46,3 +46,5 @@ class Solution:
 
 sol = Solution()
 print(sol.solve([['X','X','X','X'],['X','O','O','X'],['X','X','O','X'],['X','O','X','X']]))
+print(sol.solve([['X','O','X'],['X','O','X'],['X','O','X']]))
+print(sol.solve([['X','X','X'],['X','O','X'],['X','X','X']]))
