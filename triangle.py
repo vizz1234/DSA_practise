@@ -13,3 +13,11 @@ class Solution:
 
 sol = Solution()
 print(sol.minimumTotal([[2],[3,4],[6,5,7],[4,1,-1,3]]))
+print(sol.minimumTotal([[-10]]))
+print(sol.minimumTotal([[1],[2,3]]))
+print(sol.minimumTotal([[-1],[2,3],[1,-1,-3]]))
+print(sol.minimumTotal([[100],[2,3],[1,-1,-3]]))
+print(sol.minimumTotal([[-1],[2,3],[1,-1,-3]]))
+print(sol.minimumTotal([[-1],[2,3],[1,-1,-3]]))
+print(sol.minimumTotal([[-1],[2,3],[1,-1,-3]]))
+print(sol.minimumTotal([[-1],[2,3],[1,-1,-3]]))
