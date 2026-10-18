@@ -25,3 +25,7 @@ class Solution:
         return res
 obj = Solution()
 print(obj.maxWater([0,1,0,2,1,0,1,3,2,1,2,1]))
+print(obj.maxWater([1,2,3,4,5]))
+print(obj.maxWater([5,4,3,2,1]))
+print(obj.maxWater([1,2,3,2,1]))
+print(obj.maxWater([1,3,2,1,2]))
