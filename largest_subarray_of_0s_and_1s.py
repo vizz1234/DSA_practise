@@ -16,3 +16,4 @@ class Solution:
         return res
 obj = Solution()
 print(obj.maxLen([1,0,1,1,1,0,0]))
+print(obj.maxLen([1,1,0,0,1,1]))
