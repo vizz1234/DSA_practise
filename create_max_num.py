@@ -52,3 +52,5 @@ class Solution:
 sol = Solution()
 print(sol.maxNumber([6, 7], [6, 0, 4]))
 print(sol.maxNumber([3, 4, 6, 5], [9, 1, 2, 5, 8, 3]))
+print(sol.maxNumber([2, 5, 6, 4, 4, 0], [7, 3, 8, 0, 6, 5, 7, 6, 2]))
+print(sol.maxNumber([6, 3], [4, 0, 1, 5]))
