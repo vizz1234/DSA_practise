@@ -24,5 +24,5 @@ class Solution:
                 high = mid - 1
         return res
 obj = Solution()
-stalls = [6, 7, 9, 11, 13, 15]
-obj.aggressiveCows(stalls, 4)
+stalls = [1, 2, 4, 8, 9]
+print(obj.aggressiveCows(stalls, 3))
