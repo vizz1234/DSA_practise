@@ -24,3 +24,6 @@ class Solution:
                     queue.append(v)
         
         return front != V
+
+sol = Solution()
+print(sol.isCyclic(3, [[0, 1], [1, 0], [1, 2]]))
