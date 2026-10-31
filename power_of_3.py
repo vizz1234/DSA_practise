@@ -12,3 +12,4 @@ class Solution:
 
 sol = Solution()
 print(sol.isPowerOfThree(27))
+print(sol.isPowerOfThree(0))
